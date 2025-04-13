@@ -302,7 +302,8 @@ overflow: hidden;
   /* padding: 4px; */
 }
 .block_image-item img {
- height: 100%; 
+/*  height: 100%;  */
+background-size: contain;
 
 }
 
