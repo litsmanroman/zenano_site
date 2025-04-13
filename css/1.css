@@ -302,8 +302,8 @@ overflow: hidden;
   /* padding: 4px; */
 }
 .block_image-item img {
-/*  height: 100%;  */
-overflow: hidden;
+ height: 100%; 
+
 
 }
 
