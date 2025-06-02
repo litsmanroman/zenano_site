@@ -1,0 +1,274 @@
+
+
+.main {
+  margin-top: 115px;
+}
+
+.main-top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.main__slogan {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  /* color: #ff0000; */
+}
+
+.main__header h1 {
+  font-family: 'EB+Garamond';
+  font-size: 120px;
+  line-height: 90px;
+}
+
+.main__header h2 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  color: #ff0000;
+  text-align: right;
+  margin-right: 10px;
+}
+/* ____________________________________________________________________ */
+
+.block_image {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  margin-bottom: 50px;
+  
+}
+
+.block_image-item {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  margin: 3px;
+  box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+  /* aspect-ratio: 1.2 / 1; */
+}
+
+.block_image-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.tall {
+  grid-row: 1 / 3;
+  grid-column: 3 / 4;
+}
+
+/* _____________________________________________________________ */
+.main_destra {
+align-self: flex-end;
+/* margin-bottom: 300px; */
+display: flex;
+visibility: hidden;
+
+}
+
+.desrta_white {}
+
+.white {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 3px 0px 0px 3px;
+ 
+}
+
+
+
+.destra_black {
+  margin-top: 20px;
+  position: absolute;
+margin-left: 50px;
+
+ 
+  
+}
+
+.black {
+width: 50px;
+height: 20px;
+border-radius: 3px 0px 0px 3px;
+background-color: #000;
+margin-bottom: 10px;
+
+}
+.non {
+ 
+    visibility: hidden;
+}
+/* ________________________________________________________________ */
+
+
+
+.main-content-block {
+  margin-bottom: 30px;
+  display: flex;
+  flex: 1 1 auto;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.main-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #002e6b;
+}
+
+.main-text p {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.introduction {
+  margin-bottom: 50px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.Why-table {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 30px;
+  align-items: center;
+}
+
+.why-icons {
+  border: 5px solid #066dd4;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.why-icons img {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+.why-table-text {
+  font-size: 30px;
+}
+
+.main-text-services nav {
+  box-shadow: 0px 4px 50px rgba(109, 108, 108, 0.671);
+  font-size: 28px;
+  line-height: 70px;
+}
+
+.main-text-services a:hover {
+  text-decoration: underline;
+}
+
+.services_list {
+  margin-top: 10px;
+  border-left: 5px solid #ff0000;
+  padding-left: 20px;
+}
+
+.main-text-services a span {
+  text-decoration: underline;
+}
+
+.grey {
+  background-color: hsla(0, 0%, 67%, 0.438);
+}
+
+.main-text-trust h3 {
+  margin-bottom: 50px;
+}
+
+.trust__us {
+  font-size: 24px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* _______________________________________________________________________________ */
+
+
+
+.main_sinistra {
+  align-self: flex-end;
+  height: 450px;
+  display: flex;
+  visibility: hidden;
+}
+
+.button_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column_bas,
+.column_dur,
+.column_moll {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column_bas {
+  margin: 40px 0 20px 0;
+}
+
+.column_dur {
+  margin: 20px 0 40px 0;
+}
+
+.column_moll {
+  margin: 0 0 60px 0;
+}
+
+.bas,
+.dur,
+.moll {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.bas_C,
+.bas_E,
+.bas_As {
+  border: 3px solid #000;
+}
+
+.destra_black {
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.black {
+  width: 50px;
+  height: 20px;
+  border-radius: 3px 0 0 3px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+
+.white {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 3px 0 0 3px;
+}
+
+.non {
+  visibility: hidden;
+}
+
+
